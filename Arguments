@@ -1,0 +1,31 @@
+ARGUMENTS FOR USER1
+
+# 1. Adaugă listing-uri
+./user1 1 data.txt "SunnyFlat" 120000 "Modern apartment with sunlight" 55.5 2 1 1
+
+# 2. Afișează toate listing-urile
+./user1 2 data.txt
+
+# 3. Șterge un listing după titlu
+./user1 3 data.txt "SunnyFlat"
+
+# 4. Sortează / reafișează listing-urile (placeholder)
+./user1 4 data.txt
+
+
+ARGUMETS FOR USER2
+
+# 5. Afișează detalii despre un listing (indexul 0)
+./user2 5 data.txt 0
+
+# 6. Adaugă un listing la favorite (indexul 0)
+./user2 6 data.txt 0
+
+# 7. Cumpără (șterge) un listing (indexul 1)
+./user2 7 data.txt 1
+
+# 8. Afișează favoritele
+./user2 8 data.txt
+
+# 9. Editează un listing (indexul 0)
+./user2 9 data.txt 0 "UpdatedTitle" 135000 "Updated description" 70.5 2 1 1
